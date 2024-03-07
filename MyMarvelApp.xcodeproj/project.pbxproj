@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A3CBE472B9A595100666401 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CBE452B9A595100666401 /* WelcomeView.swift */; };
+		9A3CBE482B9A595100666401 /* WelcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3CBE462B9A595100666401 /* WelcomeView.xib */; };
+		9A3CBE4B2B9A639600666401 /* WelcomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3CBE4A2B9A639600666401 /* WelcomeCoordinator.swift */; };
 		9A64D2002B97A44C00238944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A64D1FF2B97A44C00238944 /* AppDelegate.swift */; };
 		9A64D2022B97A44C00238944 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A64D2012B97A44C00238944 /* SceneDelegate.swift */; };
 		9A64D2042B97A44C00238944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A64D2032B97A44C00238944 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A3CBE452B9A595100666401 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		9A3CBE462B9A595100666401 /* WelcomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeView.xib; sourceTree = "<group>"; };
+		9A3CBE4A2B9A639600666401 /* WelcomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCoordinator.swift; sourceTree = "<group>"; };
 		9A64D1FC2B97A44C00238944 /* MyMarvelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMarvelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A64D1FF2B97A44C00238944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A64D2012B97A44C00238944 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A3CBE412B9A57FC00666401 /* WelcomeView */ = {
+			isa = PBXGroup;
+			children = (
+				9A3CBE442B9A58BD00666401 /* View */,
+			);
+			path = WelcomeView;
+			sourceTree = "<group>";
+		};
+		9A3CBE442B9A58BD00666401 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A3CBE452B9A595100666401 /* WelcomeView.swift */,
+				9A3CBE462B9A595100666401 /* WelcomeView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A3CBE492B9A636900666401 /* WelcomeCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				9A3CBE4A2B9A639600666401 /* WelcomeCoordinator.swift */,
+			);
+			path = WelcomeCoordinator;
+			sourceTree = "<group>";
+		};
 		9A64D1F32B97A44C00238944 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +90,8 @@
 				9A64D1FF2B97A44C00238944 /* AppDelegate.swift */,
 				9A64D2012B97A44C00238944 /* SceneDelegate.swift */,
 				9A64D2032B97A44C00238944 /* ViewController.swift */,
+				9A3CBE492B9A636900666401 /* WelcomeCoordinator */,
+				9A3CBE412B9A57FC00666401 /* WelcomeView */,
 				9A64D2052B97A44C00238944 /* Main.storyboard */,
 				9A64D2082B97A44D00238944 /* Assets.xcassets */,
 				9A64D20A2B97A44D00238944 /* LaunchScreen.storyboard */,
@@ -128,6 +161,7 @@
 				9A64D20C2B97A44D00238944 /* LaunchScreen.storyboard in Resources */,
 				9A64D2092B97A44D00238944 /* Assets.xcassets in Resources */,
 				9A64D2072B97A44C00238944 /* Main.storyboard in Resources */,
+				9A3CBE482B9A595100666401 /* WelcomeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +174,9 @@
 			files = (
 				9A64D2042B97A44C00238944 /* ViewController.swift in Sources */,
 				9A64D2002B97A44C00238944 /* AppDelegate.swift in Sources */,
+				9A3CBE4B2B9A639600666401 /* WelcomeCoordinator.swift in Sources */,
 				9A64D2022B97A44C00238944 /* SceneDelegate.swift in Sources */,
+				9A3CBE472B9A595100666401 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
